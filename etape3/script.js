@@ -23,7 +23,7 @@ function init() {
 
 // doInsert incrémente le compteur "lignes" et l'utilise comme numéro
 function doInsert(nom, prenom, points) {
-    lignes++;
+    lignes++;// Incrémente le compteur de lignes (page 14)
     doInsertRowTable(lignes, nom, prenom, points);
 }
 
