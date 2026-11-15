@@ -113,12 +113,12 @@ function deleteRow() {
         }
     }
 
-    // Renuméroter les lignes restantes : 1, 2, 3... (forEach, slide 44)
+    // Renuméroter les lignes restantes : 1, 2, 3... (slide 44)
     for (let i = 0; i < table.querySelectorAll(".row").length; i++) {
     table.querySelectorAll(".row")[i].children[0].innerText = i + 1;
 }
 
-    // Étape 7 : message de succès et mise à jour du résumé
+
     alert("Suppression effectuée avec succès !");
     updateSummary();
 }
